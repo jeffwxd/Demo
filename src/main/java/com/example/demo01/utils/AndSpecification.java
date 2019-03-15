@@ -14,7 +14,6 @@ public class AndSpecification<T> extends AbstractSpecification<T> {
     public AndSpecification(List<Specification> specifications) {
         super(specifications);
     }
-    
 
     @Override
     protected Specification<T> combine(Specification<T> specs, Specification<T> next) {
